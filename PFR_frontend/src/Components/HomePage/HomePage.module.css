@@ -1,0 +1,41 @@
+.main {
+    position: relative;
+    z-index: 1;
+}
+
+.intro {
+    text-align: center;
+    margin: 2.5vh auto 0 auto;
+    max-width: 60vw;
+    position: relative;
+}
+
+.autobotLogo {
+    width: 15vw;
+    height: 6vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    object-fit: contain;
+}
+
+.intro h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 4.2vh;
+    line-height: 4vh;
+    letter-spacing: -0.02em;
+    margin: 1vh 0 2vh 0;
+}
+
+.intro p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 3vh;
+    letter-spacing: 0;
+    text-align: center;
+    color: #444;
+    margin: 0 0 1.2vh 0;
+}

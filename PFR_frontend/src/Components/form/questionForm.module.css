@@ -1,0 +1,44 @@
+.question {
+  margin-bottom: 20px;
+  color: #757575;
+  font-family: 'Roboto';
+}
+
+.recommendationBox {
+  margin-top: 5px;
+  padding: 8px;
+  background-color: #f0f8ff;
+  border-left: 3px solid #007acc;
+  font-size: 0.9rem;
+}
+
+.radioGroup {
+  display: flex;
+  gap:5vh;
+  margin-top: 10px;
+  max-width: 100%;
+  font-family: 'Roboto';
+}
+
+.justificationBox {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.justificationBox textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fileInput {
+  font-size: 14px;
+}
+

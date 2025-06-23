@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #4d4b4b;
+}
+
+.chartWrapper {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.scoreOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+
+.scoreText {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00796b;
+  text-align: center;
+  margin: 0 auto 32px;
+}
+
+
+
+.scoreDetails {
+  margin: 10px 0 30px;
+  font-size: 16px;
+  color: #555;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttonGroup button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #26a69a;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  background-color: #1e8e86;
+}

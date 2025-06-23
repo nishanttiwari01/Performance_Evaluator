@@ -1,0 +1,26 @@
+.footer {
+    text-align: center;
+    padding: 3vh 0 2vh 0;
+    font-size: 1.7vh;
+    color: black;
+    background: transparent;
+    letter-spacing: 0.1vw;
+}
+
+.divider {
+  width: 0.15vw;
+  height: 6vh;
+  background: #e0e0e0;
+  margin: 0 2vw;
+  display: inline-block;
+  align-self: center;
+}
+
+.logo {
+  height: 6vh;
+  margin-right: 0;
+}
+.squad {
+  height: 6vh;
+  margin-right: 0;
+}
